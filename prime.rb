@@ -3,7 +3,8 @@ def prime?(number)
     (2..number - 1).each do |num|
       if integer % num == 0
         return false
-  
-  
-  prime_number = 
+        
+      else
+        return true
+      end 
 end
