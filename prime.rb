@@ -1,5 +1,6 @@
 def prime?(number)
-  if number % number
+  return false if number < 2
+  
   
   
   prime_number = 
